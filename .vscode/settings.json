@@ -1,0 +1,8 @@
+{
+    "Lua.diagnostics.globals": ["love"],
+    "Lua.workspace.library": [
+        "path/to/love-api"  // Optional: Path to LÖVE API definitions if available
+    ],
+    "Lua.runtime.version": "LuaJIT",  // Specify LuaJIT which is used by LÖVE
+    "Lua.workspace.checkThirdParty": false  // Optional: Disable third-party checks
+}
